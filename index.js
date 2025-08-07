@@ -10,7 +10,7 @@ let systemLogs = [];
 const LOG_RETENTION_TIME = 60 * 60 * 1000; // 1 hora em millisegundos
 
 // Configurações
-const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL || 'https://n8n.flowzap.fun/webhook/f23c49cb-b6ed-4eea-84d8-3fe25753d9a5';
+const N8N_WEBHOOK_URL = process.env.N8N_WEBHOOK_URL || 'https://n8n.flowzap.fun/webhook/0c4be879-b0ee-44bb-a29d-0ede2b2de454';
 const PIX_TIMEOUT = 7 * 60 * 1000; // 7 minutos em millisegundos
 
 app.use(express.json());
